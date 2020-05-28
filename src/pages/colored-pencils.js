@@ -4,32 +4,24 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerLanding from '../components/BannerLanding'
 
-import pic08 from '../assets/images/pic08.jpg'
-import pic09 from '../assets/images/pic09.jpg'
-import pic10 from '../assets/images/pic10.jpg'
+import griffin from '../assets/images/colored_pencil/Griffin.jpeg'
+import kraken from '../assets/images/colored_pencil/Kraken.jpeg'
+import blueberries from '../assets/images/colored_pencil/Blueberries.jpeg'
 
-const Landing = (props) => (
+const ColoredPencils = (props) => (
     <Layout>
         <Helmet>
-            <title>Landing - Forty by HTML5 UP</title>
+            <title>Colored Pencils</title>
             <meta name="description" content="Landing Page" />
         </Helmet>
 
         <BannerLanding />
 
         <div id="main">
-            <section id="one">
-                <div className="inner">
-                    <header className="major">
-                        <h2>Sed amet aliquam</h2>
-                    </header>
-                    <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
-                </div>
-            </section>
             <section id="two" className="spotlights">
                 <section>
                     <Link to="/generic" className="image">
-                        <img src={pic08} alt="" />
+                        <img src={griffin} alt="" />
                     </Link>
                     <div className="content">
                         <div className="inner">
@@ -45,7 +37,7 @@ const Landing = (props) => (
                 </section>
                 <section>
                     <Link to="/generic" className="image">
-                        <img src={pic09} alt="" />
+                        <img src={kraken} alt="" />
                     </Link>
                     <div className="content">
                         <div className="inner">
@@ -61,7 +53,7 @@ const Landing = (props) => (
                 </section>
                 <section>
                     <Link to="/generic" className="image">
-                        <img src={pic10} alt="" />
+                        <img src={blueberries} alt="" />
                     </Link>
                     <div className="content">
                         <div className="inner">
@@ -81,4 +73,4 @@ const Landing = (props) => (
     </Layout>
 )
 
-export default Landing
+export default ColoredPencils

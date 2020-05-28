@@ -17,7 +17,7 @@ class HomeIndex extends React.Component {
         return (
             <Layout>
                 <Helmet
-                    title="Gatsby Starter - Forty"
+                    title="Robyn's Illustrations"
                     meta={[
                         { name: 'description', content: 'Sample' },
                         { name: 'keywords', content: 'sample, something' },
@@ -29,48 +29,48 @@ class HomeIndex extends React.Component {
 
                 <div id="main">
                     <section id="one" className="tiles">
-                        <article style={{backgroundImage: `url(${pic01})`}}>
+                        <article style={{ backgroundImage: `url(${pic01})` }}>
                             <header className="major">
-                                <h3>Aliquam</h3>
-                                <p>Ipsum dolor sit amet</p>
+                                <h3>Gouache</h3>
+                                <p>Holbein Acryla</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic02})`}}>
+                        <article style={{ backgroundImage: `url(${pic02})` }}>
                             <header className="major">
-                                <h3>Tempus</h3>
-                                <p>feugiat amet tempus</p>
+                                <h3>Colored Pencil</h3>
+                                <p>Caran d'Ache Luminance / Primsacolors</p>
+                            </header>
+                            <Link to="/colored-pencils" className="link primary"></Link>
+                        </article>
+                        <article style={{ backgroundImage: `url(${pic03})` }}>
+                            <header className="major">
+                                <h3>Acrylic</h3>
+                                <p>Various brands</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic03})`}}>
+                        <article style={{ backgroundImage: `url(${pic04})` }}>
                             <header className="major">
-                                <h3>Magna</h3>
-                                <p>Lorem etiam nullam</p>
+                                <h3>Other</h3>
+                                <p>Oil paint, embroidery</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic04})`}}>
-                            <header className="major">
-                                <h3>Ipsum</h3>
-                                <p>Nisl sed aliquam</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic05})`}}>
+                        {/* <article style={{ backgroundImage: `url(${pic05})` }}>
                             <header className="major">
                                 <h3>Consequat</h3>
                                 <p>Ipsum dolor sit amet</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic06})`}}>
+                        <article style={{ backgroundImage: `url(${pic06})` }}>
                             <header className="major">
                                 <h3>Etiam</h3>
                                 <p>Feugiat amet tempus</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
-                        </article>
+                        </article> */}
                     </section>
                     <section id="two">
                         <div className="inner">
