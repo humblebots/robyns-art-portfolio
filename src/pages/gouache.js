@@ -6,7 +6,7 @@ import BannerLanding from '../components/BannerLanding'
 
 import coffeePlant from '../assets/images/gouache/CoffeePlant.jpeg'
 import powerLines from '../assets/images/gouache/Powerlines.jpeg'
-import thunderstorm from '../assets/images/gouache/thunderstorm.jpeg'
+import thunderstorm from '../assets/images/gouache/Thunderstorm.jpeg'
 
 const Gouache = (props) => (
     <Layout>
