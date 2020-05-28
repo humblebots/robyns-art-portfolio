@@ -4,9 +4,9 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
 
-import pic01 from '../assets/images/pic01.jpg'
+import paintBrushes from '../assets/images/paint-brushes.jpg'
 import pencils from '../assets/images/colored-pencils.jpg'
-import pic03 from '../assets/images/pic03.jpg'
+import palettes from '../assets/images/paint-palette.jpg'
 import pic04 from '../assets/images/pic04.jpg'
 import pic05 from '../assets/images/pic05.jpg'
 import pic06 from '../assets/images/pic06.jpg'
@@ -29,7 +29,7 @@ class HomeIndex extends React.Component {
 
                 <div id="main">
                     <section id="one" className="tiles">
-                        <article style={{ backgroundImage: `url(${pic01})` }}>
+                        <article style={{ backgroundImage: `url(${paintBrushes})` }}>
                             <header className="major">
                                 <h3>Gouache</h3>
                                 <p>Holbein Acryla</p>
@@ -43,7 +43,7 @@ class HomeIndex extends React.Component {
                             </header>
                             <Link to="/colored-pencils" className="link primary"></Link>
                         </article>
-                        <article style={{ backgroundImage: `url(${pic03})` }}>
+                        <article style={{ backgroundImage: `url(${palettes})` }}>
                             <header className="major">
                                 <h3>Acrylic</h3>
                                 <p>Various brands</p>

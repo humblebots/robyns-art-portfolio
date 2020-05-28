@@ -8,9 +8,6 @@ const Banner = (props) => (
             </header>
             <div className="content">
                 <p>This is a collection of my illustrations</p>
-                <ul className="actions">
-                    <li><a href="#one" className="button next scrolly">Get Started</a></li>
-                </ul>
             </div>
         </div>
     </section>
