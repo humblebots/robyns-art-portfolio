@@ -15,7 +15,7 @@ const ColoredPencils = (props) => (
             <meta name="description" content="Landing Page" />
         </Helmet>
 
-        <BannerLanding />
+        <BannerLanding title={"Colored Pencils"} content={"Caran d'ache Luminance"} />
 
         <div id="main">
             <section id="two" className="spotlights">
@@ -28,10 +28,8 @@ const ColoredPencils = (props) => (
                             <header className="major">
                                 <h3>Griffin</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-                            <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
-                            </ul>
+                            <p>I wanted to try something a bit out of my comfort zone here! This is a portrait of one of my cats, Griffin.</p>
+                            <p>9 x 12 on toned paper</p>
                         </div>
                     </div>
                 </section>
@@ -44,10 +42,8 @@ const ColoredPencils = (props) => (
                             <header className="major">
                                 <h3>Kraken</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-                            <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
-                            </ul>
+                            <p>I was inspired to do this after seeing an artisan key cap! The colors were really fun to play with on this one.</p>
+                            <p>9 x 12 on toned paper</p>
                         </div>
                     </div>
                 </section>

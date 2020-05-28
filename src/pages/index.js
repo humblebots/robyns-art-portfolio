@@ -34,7 +34,7 @@ class HomeIndex extends React.Component {
                                 <h3>Gouache</h3>
                                 <p>Holbein Acryla</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/gouache" className="link primary"></Link>
                         </article>
                         <article style={{ backgroundImage: `url(${pencils})` }}>
                             <header className="major">
