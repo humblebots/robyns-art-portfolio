@@ -7,9 +7,10 @@ import Banner from '../components/Banner'
 import paintBrushes from '../assets/images/paint-brushes.jpg'
 import pencils from '../assets/images/colored-pencils.jpg'
 import palettes from '../assets/images/paint-palette.jpg'
-import pic04 from '../assets/images/pic04.jpg'
+import thread from '../assets/images/thread.jpg'
 import pic05 from '../assets/images/pic05.jpg'
 import pic06 from '../assets/images/pic06.jpg'
+import img from '../assets/images/thread.jpg'
 
 class HomeIndex extends React.Component {
     render() {
@@ -25,7 +26,7 @@ class HomeIndex extends React.Component {
                 >
                 </Helmet>
 
-                <Banner />
+                <Banner background={img} />
 
                 <div id="main">
                     <section id="one" className="tiles">
@@ -50,7 +51,7 @@ class HomeIndex extends React.Component {
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
-                        <article style={{ backgroundImage: `url(${pic04})` }}>
+                        <article style={{ backgroundImage: `url(${thread})` }}>
                             <header className="major">
                                 <h3>Other</h3>
                                 <p>Oil paint, embroidery</p>

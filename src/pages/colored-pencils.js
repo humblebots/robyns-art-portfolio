@@ -7,6 +7,7 @@ import BannerLanding from '../components/BannerLanding'
 import griffin from '../assets/images/colored_pencil/Griffin.jpeg'
 import kraken from '../assets/images/colored_pencil/Kraken.jpeg'
 import blueberries from '../assets/images/colored_pencil/Blueberries.jpeg'
+import pencils from '../assets/images/colored-pencils.jpg'
 
 const ColoredPencils = (props) => (
     <Layout>
@@ -15,7 +16,7 @@ const ColoredPencils = (props) => (
             <meta name="description" content="Landing Page" />
         </Helmet>
 
-        <BannerLanding title={"Colored Pencils"} content={"Caran d'ache Luminance"} />
+        <BannerLanding title={"Colored Pencils"} content={"Caran d'ache Luminance"} background={pencils} />
 
         <div id="main">
             <section id="two" className="spotlights">
