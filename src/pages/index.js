@@ -8,9 +8,8 @@ import paintBrushes from '../assets/images/paint-brushes.jpg'
 import pencils from '../assets/images/colored-pencils.jpg'
 import palettes from '../assets/images/paint-palette.jpg'
 import thread from '../assets/images/thread.jpg'
-import pic05 from '../assets/images/pic05.jpg'
-import pic06 from '../assets/images/pic06.jpg'
 import img from '../assets/images/thread.jpg'
+import me from '../assets/images/MyPortrait.jpeg'
 
 class HomeIndex extends React.Component {
     render() {
@@ -73,16 +72,21 @@ class HomeIndex extends React.Component {
                             <Link to="/landing" className="link primary"></Link>
                         </article> */}
                     </section>
-                    <section id="two">
-                        <div className="inner">
-                            <header className="major">
-                                <h2>Massa libero</h2>
-                            </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
-                            <ul className="actions">
-                                <li><Link to="/landing" className="button next">Get Started</Link></li>
-                            </ul>
-                        </div>
+                    <section id="two" className="spotlights">
+                        <section>
+                            <Link to="/generic" className="image">
+                                <img src={me} alt="" />
+                            </Link>
+                            <div className="content">
+                                <div className="inner">
+                                    <header className="major">
+                                        <h3>About Me</h3>
+                                    </header>
+                                    <p>Although I am a Software Engineer by trade, I have always had a passion for art. I've tried many different mediums, but my favorites have been colored pencils and gouache.</p>
+                                    <p>Open for commissions!</p>
+                                </div>
+                            </div>
+                        </section>
                     </section>
                 </div>
 

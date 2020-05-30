@@ -8,6 +8,7 @@ import griffin from '../assets/images/colored_pencil/Griffin.jpeg'
 import kraken from '../assets/images/colored_pencil/Kraken.jpeg'
 import blueberries from '../assets/images/colored_pencil/Blueberries.jpeg'
 import pencils from '../assets/images/colored-pencils.jpg'
+import egg from '../assets/images/colored_pencil/FriedEgg.jpeg'
 
 const ColoredPencils = (props) => (
     <Layout>
@@ -21,9 +22,9 @@ const ColoredPencils = (props) => (
         <div id="main">
             <section id="two" className="spotlights">
                 <section>
-                    <Link to="/generic" className="image">
+                    <div className="image">
                         <img src={griffin} alt="" />
-                    </Link>
+                    </div>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
@@ -35,9 +36,9 @@ const ColoredPencils = (props) => (
                     </div>
                 </section>
                 <section>
-                    <Link to="/generic" className="wide-image">
+                    <div className="wide-image">
                         <img src={kraken} alt="" />
-                    </Link>
+                    </div>
                     <div className="wide-content">
                         <div className="inner">
                             <header className="major">
@@ -49,25 +50,37 @@ const ColoredPencils = (props) => (
                     </div>
                 </section>
                 <section>
-                    <Link to="/generic" className="image">
+                    <div className="image">
                         <img src={blueberries} alt="" />
-                    </Link>
+                    </div>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Sed nunc ligula</h3>
+                                <h3>Blueberries</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-                            <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
-                            </ul>
+                            <p>This is one of the first drawings I did with Caran d'Ache Luminance pencils. I really enjoyed picking the many colors in the blueberries and layering them.</p>
+                            <p>9 x 12 on toned paper</p>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div className="wide-image">
+                        <img src={egg} alt="" />
+                    </div>
+                    <div className="wide-content">
+                        <div className="inner">
+                            <header className="major">
+                                <h3>Fried Egg</h3>
+                            </header>
+                            <p>I love food and drawing it too! I wanted to see if I could capture the different shades of white an egg has, and the tan toned paper was a fun way to do it!</p>
+                            <p>9 x 12 on toned paper</p>
                         </div>
                     </div>
                 </section>
             </section>
         </div>
 
-    </Layout>
+    </Layout >
 )
 
 export default ColoredPencils
