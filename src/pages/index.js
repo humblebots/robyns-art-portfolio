@@ -48,14 +48,14 @@ class HomeIndex extends React.Component {
                                 <h3>Acrylic</h3>
                                 <p>Various brands</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/acrylic" className="link primary"></Link>
                         </article>
                         <article style={{ backgroundImage: `url(${thread})` }}>
                             <header className="major">
                                 <h3>Other</h3>
                                 <p>Oil paint, embroidery</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/other-works" className="link primary"></Link>
                         </article>
                         {/* <article style={{ backgroundImage: `url(${pic05})` }}>
                             <header className="major">
@@ -74,9 +74,9 @@ class HomeIndex extends React.Component {
                     </section>
                     <section id="two" className="spotlights">
                         <section>
-                            <Link to="/generic" className="image">
+                            <div className="image">
                                 <img src={me} alt="" />
-                            </Link>
+                            </div>
                             <div className="content">
                                 <div className="inner">
                                     <header className="major">

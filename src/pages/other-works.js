@@ -7,16 +7,16 @@ import BannerLanding from '../components/BannerLanding'
 import coffeePlant from '../assets/images/gouache/CoffeePlant.jpeg'
 import powerLines from '../assets/images/gouache/Powerlines.jpeg'
 import thunderstorm from '../assets/images/gouache/Thunderstorm.jpeg'
-import brushes from '../assets/images/paint-brushes.jpg'
+import palette from '../assets/images/paint-palette.jpg'
 
-const Gouache = (props) => (
+const Other = (props) => (
     <Layout>
         <Helmet>
-            <title>Gouache</title>
-            <meta name="description" content="Gouache" />
+            <title>Other Works</title>
+            <meta name="description" content="Acrylic" />
         </Helmet>
 
-        <BannerLanding title="Gouache" content="Holbein Acryla" background={brushes} />
+        <BannerLanding title="Other Works" content="Oil Paint, Embroidery" background={palette} />
 
         <div id="main">
             <section id="two" className="spotlights">
@@ -68,4 +68,4 @@ const Gouache = (props) => (
     </Layout>
 )
 
-export default Gouache
+export default Other

@@ -4,30 +4,30 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerLanding from '../components/BannerLanding'
 
-import coffeePlant from '../assets/images/gouache/CoffeePlant.jpeg'
+import koiPond from '../assets/images/acrylic/KoiPond.jpeg'
 import powerLines from '../assets/images/gouache/Powerlines.jpeg'
 import thunderstorm from '../assets/images/gouache/Thunderstorm.jpeg'
-import brushes from '../assets/images/paint-brushes.jpg'
+import palette from '../assets/images/paint-palette.jpg'
 
-const Gouache = (props) => (
+const Acrylic = (props) => (
     <Layout>
         <Helmet>
-            <title>Gouache</title>
-            <meta name="description" content="Gouache" />
+            <title>Acrylic</title>
+            <meta name="description" content="Acrylic" />
         </Helmet>
 
-        <BannerLanding title="Gouache" content="Holbein Acryla" background={brushes} />
+        <BannerLanding title="Acrylic" content="" background={palette} />
 
         <div id="main">
             <section id="two" className="spotlights">
                 <section>
                     <div className="image">
-                        <img src={coffeePlant} alt="" />
+                        <img src={koiPond} alt="" />
                     </div>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Coffee Plant</h3>
+                                <h3>Koi Pond</h3>
                             </header>
                             <p>I painted this right after a trip I went on to Portland, Oregon. There were so many fantastic coffee shops there!</p>
                             <p>11 x 14 on cold pressed watercolor paper</p>
@@ -68,4 +68,4 @@ const Gouache = (props) => (
     </Layout>
 )
 
-export default Gouache
+export default Acrylic
