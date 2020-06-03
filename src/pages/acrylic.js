@@ -30,7 +30,7 @@ const Acrylic = (props) => (
                                 <h3>Koi Pond</h3>
                             </header>
                             <p>This is one of my largest works I've ever done! </p>
-                            <p>24 x 36 on stretched canvas</p>
+                            <p>24 x 48 on stretched canvas</p>
                         </div>
                     </div>
                 </section>
