@@ -9,6 +9,7 @@ import kraken from '../assets/images/colored_pencil/Kraken.jpeg'
 import blueberries from '../assets/images/colored_pencil/Blueberries.jpeg'
 import pencils from '../assets/images/colored-pencils.jpg'
 import egg from '../assets/images/colored_pencil/FriedEgg.jpeg'
+import echevaria from '../assets/images/colored_pencil/Echevaria.jpeg'
 
 const ColoredPencils = (props) => (
     <Layout>
@@ -21,6 +22,20 @@ const ColoredPencils = (props) => (
 
         <div id="main">
             <section id="two" className="spotlights">
+                <section>
+                    <div className="wide-image">
+                        <img src={echevaria} alt="" />
+                    </div>
+                    <div className="wide-content">
+                        <div className="inner">
+                            <header className="major">
+                                <h3>Echevaria Succulent</h3>
+                            </header>
+                            <p>Tried out some rose toned paper for this one and I think it really helped make the colors pop</p>
+                            <p>9 x 12 on toned paper</p>
+                        </div>
+                    </div>
+                </section>
                 <section>
                     <div className="image">
                         <img src={griffin} alt="" />
