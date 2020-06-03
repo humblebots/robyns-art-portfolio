@@ -42,7 +42,7 @@ const Other = (props) => (
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Birt present for Elowen</h3>
+                                <h3>Birth present for Elowen</h3>
                             </header>
                             <p>I stitched this as a birth present for my neice. The french knots were brutal because of how thick the canvas was.</p>
                             <p>6 x 8 on stretched natural canvas</p>
