@@ -5,8 +5,8 @@ import Layout from '../components/layout'
 import BannerLanding from '../components/BannerLanding'
 
 import koiPond from '../assets/images/acrylic/KoiPond.jpeg'
-import powerLines from '../assets/images/gouache/Powerlines.jpeg'
-import thunderstorm from '../assets/images/gouache/Thunderstorm.jpeg'
+import pluto from '../assets/images/acrylic/Pluto.jpeg'
+import sunsetClouds from '../assets/images/acrylic/SunsetClouds.jpeg'
 import palette from '../assets/images/paint-palette.jpg'
 
 const Acrylic = (props) => (
@@ -21,44 +21,44 @@ const Acrylic = (props) => (
         <div id="main">
             <section id="two" className="spotlights">
                 <section>
-                    <div className="image">
-                        <img src={koiPond} alt="" />
-                    </div>
-                    <div className="content">
-                        <div className="inner">
-                            <header className="major">
-                                <h3>Koi Pond</h3>
-                            </header>
-                            <p>I painted this right after a trip I went on to Portland, Oregon. There were so many fantastic coffee shops there!</p>
-                            <p>11 x 14 on cold pressed watercolor paper</p>
-                        </div>
-                    </div>
-                </section>
-                <section>
                     <div className="wide-image">
-                        <img src={powerLines} alt="" />
+                        <img src={koiPond} alt="" />
                     </div>
                     <div className="wide-content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Power Lines</h3>
+                                <h3>Koi Pond</h3>
                             </header>
-                            <p>This was done while reminiscing about rainy summer afternoons.</p>
-                            <p>11 x 14 on cold pressed watercolor paper</p>
+                            <p>This is one of my largest works I've ever done! </p>
+                            <p>24 x 36 on stretched canvas</p>
                         </div>
                     </div>
                 </section>
                 <section>
                     <div className="image">
-                        <img src={thunderstorm} alt="" />
+                        <img src={pluto} alt="" />
                     </div>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Thunderstorm</h3>
+                                <h3>Pluto</h3>
                             </header>
-                            <p>This was a super fun and quick painting I did to get back into it! I love the summer thunderstorms that we get down in Florida.</p>
-                            <p>11 x 14 on cold pressed watercolor paper</p>
+                            <p>The newest pictures of Pluto are quite mesmerizing; I bumped up the colors in my painting of it.</p>
+                            <p>11 x 14 on wood board</p>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div className="image">
+                        <img src={sunsetClouds} alt="" />
+                    </div>
+                    <div className="content">
+                        <div className="inner">
+                            <header className="major">
+                                <h3>Sunset Clouds</h3>
+                            </header>
+                            <p></p>
+                            <p>11 x 14 on wood board</p>
                         </div>
                     </div>
                 </section>
