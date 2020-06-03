@@ -1,15 +1,14 @@
 import React from 'react'
 
 const Banner = (props) => {
-    // const { backgroundImage } = props;
-    const backgroundImage = props.background;
+    const { background } = props;
 
     const styles = {
-        backgroundImage: 'url(' + backgroundImage + ')'
+        backgroundImage: 'url(' + background + ')'
     };
 
     return (
-        <section id="banner" className="major">
+        <section id="banner" className="major" style={styles}>
             <div className="inner">
                 <header className="major">
                     <h1>Hi, my name is Robyn</h1>

@@ -8,8 +8,9 @@ import paintBrushes from '../assets/images/paint-brushes.jpg'
 import pencils from '../assets/images/colored-pencils.jpg'
 import palettes from '../assets/images/paint-palette.jpg'
 import thread from '../assets/images/thread.jpg'
-import img from '../assets/images/thread.jpg'
+import img from '../assets/images/gouache/Thunderstorm.jpeg'
 import me from '../assets/images/MyPortrait.jpeg'
+import Gouache from './gouache';
 
 class HomeIndex extends React.Component {
     render() {
