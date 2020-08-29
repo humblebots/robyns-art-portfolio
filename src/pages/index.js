@@ -10,6 +10,7 @@ import palettes from '../assets/images/paint-palette.jpg'
 import thread from '../assets/images/thread.jpg'
 import img from '../assets/images/gouache/Thunderstorm.jpeg'
 import me from '../assets/images/MyPortrait.jpeg'
+import foodbanner from '../assets/images/foodbanner.jpg'
 import Gouache from './gouache';
 
 class HomeIndex extends React.Component {
@@ -30,6 +31,13 @@ class HomeIndex extends React.Component {
 
                 <div id="main">
                     <section id="one" className="tiles">
+                        <article style={{ backgroundImage: `url(${foodbanner})` }}>
+                            <header className="major">
+                                <h3>Food Illustrations</h3>
+                                <p>Colored Pencil and Gouache</p>
+                            </header>
+                            <Link to="/food" className="link primary"></Link>
+                        </article>
                         <article style={{ backgroundImage: `url(${paintBrushes})` }}>
                             <header className="major">
                                 <h3>Gouache</h3>
