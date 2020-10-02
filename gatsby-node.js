@@ -12,5 +12,9 @@ exports.onPostBuild = () => {
   try {
     fs.rmdirSync(path.join(__dirname, 'docs'), { recursive: true })
     fs.renameSync(path.join(__dirname, 'public'), path.join(__dirname, 'docs'))
+    fs.copyFileSync(
+      path.join(__dirname, '_CNAME'),
+      path.join(__dirname, 'docs/CNAME')
+    )
   } catch (error) {}
 }
